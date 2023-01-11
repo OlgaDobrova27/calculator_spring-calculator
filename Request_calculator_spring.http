@@ -1,0 +1,19 @@
+### Приветствие
+GET http://localhost:8080/calculator
+
+### Считаем сумму
+GET http://localhost:8080/calculator/plus?a=5&b=5
+
+### Считаем разницу
+GET http://localhost:8080/calculator/minus?a=4&b=2
+
+### Умножение
+GET http://localhost:8080/calculator/multiply?a=4&b=3
+
+### Деление
+GET http://localhost:8080/calculator/divide?a=12&b=3
+
+### Деление на ноль
+GET http://localhost:8080/calculator/divide?a=12&b=0
+
+
